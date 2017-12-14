@@ -1,0 +1,269 @@
+/* type selectors */
+html {
+	background-color: #696969;
+}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 90%;
+	width: 100%;            /* changed from 960px */
+	max-width: 960px;
+	background-color: white;
+	margin: 1em auto;
+	padding-left: 0;
+	text-align: center;
+	border: 1px solid black;
+}
+section, article, aside, h1, h2, h3, p, ul {
+	margin: 0;
+	padding: 0;
+}
+section {
+	margin-top: 1.5em;
+	margin-bottom: 1em;	
+}
+
+a { font-weight: bold; }
+a:link { color: #16A085; }
+a:visited { color: navy; }
+a:hover, a:focus { color: blue; }
+
+p { padding-bottom: 0.5em; }
+	
+em { font-weight: bold; }
+
+/* the styles for the header */
+header {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6051e2+50,6051e2+67 */
+	background: rgba(252,236,252,1);
+	background: -moz-linear-gradient(-45deg, rgba(252,236,252,1) 0%, rgba(253,137,215,1) 51%, rgba(251,166,225,1) 73%, rgba(255,124,216,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(252,236,252,1)), color-stop(51%, rgba(253,137,215,1)), color-stop(73%, rgba(251,166,225,1)), color-stop(100%, rgba(255,124,216,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(252,236,252,1) 0%, rgba(253,137,215,1) 51%, rgba(251,166,225,1) 73%, rgba(255,124,216,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(252,236,252,1) 0%, rgba(253,137,215,1) 51%, rgba(251,166,225,1) 73%, rgba(255,124,216,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(252,236,252,1) 0%, rgba(253,137,215,1) 51%, rgba(251,166,225,1) 73%, rgba(255,124,216,1) 100%);
+	background: linear-gradient(135deg, rgba(252,236,252,1) 0%, rgba(253,137,215,1) 51%, rgba(251,166,225,1) 73%, rgba(255,124,216,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcecfc', endColorstr='#ff7cd8', GradientType=1 ); /* IE6-9 */
+	padding-bottom: 1em;
+}
+/*@font-face {*/
+	/*font-family: Italy;*/
+    /*src: url("FRSCRIPT.TTF");*/
+}
+header h2 {
+	font-family: Italy, cursive;
+	font-size: 350%;
+	font-weight: bold;
+    color: white;
+    text-shadow: 2px 3px 0 black;
+    padding-top: .25em;
+    margin-left: 2.60416%;        /* 25 / 960 x 100 */
+}
+header h3 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 150%;
+	margin-left: 13.02083%;       /* 125 / 960 x 100 */
+}
+	
+/* the styles for the navigation menu */
+#nav_menu ul {
+	list-style: none;
+}
+#nav_menu ul li {
+	float: left;
+	width: 19.79167%;                /* 190 / 960 x 100 */
+    border-right: 2px solid white;
+}
+#nav_menu ul li a {
+	text-align: center;
+	display: block;
+	padding: 1em 0;
+    text-decoration: none;
+    background-color: black;	
+    color: white;
+    font-weight: bold;
+}
+#nav_menu ul li.lastitem {
+ 	width: 20%;	                 /* 192 / 960 x 100 */
+ 	border-right: none;
+}
+#nav_menu a.current {
+	color: gray;
+}
+
+/* the styles for the section */
+section {
+	width: 67.1875%;             /* 645 / 960 x 100 */
+	padding-left: 2.08333%;      /* 20 / 960 x 100 */
+	padding-right: 2.08333%;     /* 20 / 960 x 100 */
+	float: right;
+}
+section h1 {
+	font-size: 200%;
+	margin-bottom: 0.5em; 
+	color: #16A085;
+}
+article {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;	
+}
+article p {
+	margin-bottom: .75em;
+}
+figure {
+    margin-right: 2.32558%;    /* 20 / 645 x 100 */
+    margin-left: 0; 
+    margin-top: 0;
+}
+figcaption {
+    display: block;
+    font-weight: bold;
+    padding-top: .25em;
+    margin-bottom: .6em;
+    border-bottom: 1px solid black;
+}
+figure img {
+	width: 100%;
+	max-width: 300px;
+}
+
+/* the styles for the sidebar */
+aside {
+	width: 26.04166%;          /* 250 / 960 x 100 */
+	float: right;
+	padding-left: 2.60416%;    /* 25 / 960 x 100 */
+}
+aside h2 {
+	font-size: 125%;
+	color: #696969;
+	margin-top: 1.7em;
+	padding-bottom: .5em;
+}
+aside ul {
+	list-style: none;
+}
+aside li {
+	margin-bottom: .5em;
+}
+
+aside img {
+	border: 1px solid #696969;
+}
+aside .site {
+	margin-left: 4%;           /* 10 / 250 x 100 */
+}
+
+/* the styles for the footer */
+footer {
+	clear: both;
+	padding-top: 1em;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6051e2+50,6051e2+67 */
+	background: rgba(252,236,252,1);
+	background: -moz-linear-gradient(-45deg, rgba(252,236,252,1) 0%, rgba(253,137,215,1) 51%, rgba(251,166,225,1) 73%, rgba(255,124,216,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(252,236,252,1)), color-stop(51%, rgba(253,137,215,1)), color-stop(73%, rgba(251,166,225,1)), color-stop(100%, rgba(255,124,216,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(252,236,252,1) 0%, rgba(253,137,215,1) 51%, rgba(251,166,225,1) 73%, rgba(255,124,216,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(252,236,252,1) 0%, rgba(253,137,215,1) 51%, rgba(251,166,225,1) 73%, rgba(255,124,216,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(252,236,252,1) 0%, rgba(253,137,215,1) 51%, rgba(251,166,225,1) 73%, rgba(255,124,216,1) 100%);
+	background: linear-gradient(135deg, rgba(252,236,252,1) 0%, rgba(253,137,215,1) 51%, rgba(251,166,225,1) 73%, rgba(255,124,216,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcecfc', endColorstr='#ff7cd8', GradientType=1 );
+	Copy text	/* IE6-9 */
+}
+footer p {
+	font-size: 80%;
+	color: white;
+	margin-left: 2.60416%;      /* 25 / 960 x 100 */          
+	padding-bottom: 1em;
+}
+#mobile_menu {
+	display: none;
+}
+
+@media only screen and (max-width: 959px) {
+	#nav_menu ul li {
+		width: 19.73368%;            /* adjustment for right borders */
+	}
+	section h1 {
+		font-size: 175%;
+	}
+	figcaption {
+		font-size: 80%;
+	}
+	aside h2 {
+		font-size: 110%;
+	}
+	aside ul li {
+		font-size: 90%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	#nav_menu {
+		display: none;
+	}
+	#mobile_menu {
+		display: block;
+	}
+	.slicknav_menu {
+		background-color: black !important;
+	}
+	.slicknav_btn {
+		background-color: #696969 !important;
+	}
+	header h2 {
+		font-size: 300%;
+		margin-bottom: .25em;
+	}
+	header h3 {
+		font-size: 130%;
+	}
+	section, aside {
+		float: none;
+		width: 95.83334%;             /* 100 - (2 x 2.08333) */
+	}
+	section {
+		margin-bottom: 0;
+	}
+	section h1 {
+		font-size: 160%;
+	}
+	article {
+    	-moz-column-count: 1;
+    	-webkit-column-count: 1;
+    	column-count: 1;	
+	}
+	figure {
+		float: left;
+		width: 40%;
+	}
+	aside {
+		padding: 0 2.08333%;
+		margin-bottom: 2em;
+	}
+	aside h2 {
+		margin-top: 0;
+	}
+	aside ul {
+		-moz-column-count: 2;
+		-webkit-column-count: 2;
+		column-count: 2;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	section h1 {
+		font-size: 140%;
+	}
+	figure {
+		float: none;
+		width: 100%;
+	}
+	aside {
+		width: 75%;
+		padding: 0 12.5%;		
+	}
+	aside ul {
+		-moz-column-count: 1;
+		-webkit-column-count: 1;
+		column-count: 1;
+
+	}
+}
